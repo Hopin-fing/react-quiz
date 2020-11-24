@@ -21,6 +21,8 @@ export function fetchQuizes() {
                     name: `Тест №${index + 1}`
                 })
             })
+            console.log(Object);
+
 
             dispatch(fetchQuizesSuccess(quizes))
         } catch (e) {
